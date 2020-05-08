@@ -1,0 +1,3 @@
+# Console Core
+
+Study project
