@@ -70,3 +70,44 @@ Para Utilizar Docker é necessario ter instalado:
   Docker-Compose: https://docs.docker.com/compose/
   
 ``` 
+
+
+
+PR:
+
+## Description
+
+Esta PR implementa solução para o problema proposto no commit #19b7e03372a16034ed1025ff51105d3cbe74f356.
+
+Criação de dois microserviços que se comunicam entre si, com persistência de dados, utilizando bancos não relacionais e relacionais.
+
+O primeiro microserviço é de cadastro de usuários, possuindo seguintes recursos:
+
+Listar, exibir, criar, alterar e excluir usuários.
+O segundo microserviço é de cadastro de pedidos, onde cada pedido possui o id do usuário que solicitou o pedido e se comunica com microserviço de usuários para verificar se o id do usuário é existente para realizar o pedido, onde o mesmo possui os seguintes recursos:
+
+Listar, Listar por usuário, exibir, criar, alterar e excluir.
+Cada microserviço por sua vez, faz a persistência dos dados em seus respectivos banco de dados, utilizando os padrões REST.
+
+
+## Steps
+
+Com docker em execução, acesse a raiz de cada Api e execute: 
+  
+```  
+  docker-compose up -d
+```
+
+Acesse através do navegador:
+
+User Api: http://localhost:8080/docs / http://localhost:8080/redoc
+
+Order Api: http://localhost:8090/docs / http://localhost:8090/redoc
+
+PostgreSQL: localhost:5432
+- Usuário: postgres
+- Senha: postgres
+
+ElasticSearch: localhost:9200
+
+Variáveis de ambiente estão localizadas no arquivo ".env"
