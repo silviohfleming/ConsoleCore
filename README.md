@@ -111,6 +111,8 @@ Requests: É uma biblioteca HTTP elegante e simples para Python.
 
 ## Comandos e Execução
 
+**Sequência**: user-api > order-api.
+
 Com docker em execução, acesse a raiz de cada Api e execute: 
   
 ```  
