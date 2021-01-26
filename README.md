@@ -135,4 +135,4 @@ Variáveis de ambiente estão localizadas no arquivo ".env"
 
 ## Observações
 
-* Escolha do Pyhton FastApi como framework: Ele possui grande performance, fácil aprendizado, código rápido, produção em tempo real, intuitivo e robusto.
+* Escolha do Python FastApi como framework: Ele possui grande performance, fácil aprendizado, código rápido, produção em tempo real, intuitivo e robusto.
