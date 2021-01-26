@@ -89,6 +89,23 @@ O segundo microserviço é de cadastro de pedidos, onde cada pedido possui o id 
 Listar, Listar por usuário, exibir, criar, alterar e excluir.
 Cada microserviço por sua vez, faz a persistência dos dados em seus respectivos banco de dados, utilizando os padrões REST.
 
+## Technologies
+
+- User Api: FastApi, SQLAlchemy, Redis e Pytest.
+
+- Order Api: FastApi, ElasticSearch, Requests e PyTest.
+
+FastApi: É um framework para Python, com alto desempenho, fácil de aprender, rápido para codificar e pronto para produção.
+
+SQLAlchemy: É um kit de ferramentas Python SQL e mapeador relacional de objetos que fornece aos desenvolvedores de aplicativos todo o poder e flexibilidade do SQL.
+
+Redis: É um armazenamento de estrutura de dados na memória de código aberto (licenciado por BSD), usado como banco de dados, cache e agente de mensagens.
+
+Pytest: É um framework que torna fácil a escrita de códigos para testes, mas pode ser escalonada para suportar testes funcionais complexos para aplicativos e bibliotecas.
+
+ElasticSearch: É um mecanismo de busca e análise de dados distribuído e open source para todos os tipos de dados, incluindo textuais, numéricos, geoespaciais, estruturados e não estruturados.
+
+Requests: É uma biblioteca HTTP elegante e simples para Python.
 
 ## Steps
 
@@ -111,3 +128,7 @@ PostgreSQL: localhost:5432
 ElasticSearch: localhost:9200
 
 Variáveis de ambiente estão localizadas no arquivo ".env"
+
+## Comments
+
+* Escolha do Pyhton FastApi como framework: Ele possui grande performance, fácil aprendizado, código rápido, produção em tempo real, intuitivo e robusto.
