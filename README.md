@@ -38,6 +38,8 @@ Requests: É uma biblioteca HTTP elegante e simples para Python.
 
 # Execução dos microserviços com Docker:
 
+Sequência: user-api > order-api.
+
 Com docker em execução, acesse a raiz de cada Api e execute: 
   
 ```  
