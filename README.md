@@ -75,7 +75,7 @@ Para Utilizar Docker é necessario ter instalado:
 
 PR:
 
-## Description
+## Descrição
 
 Esta PR implementa solução para o problema proposto no commit #19b7e03372a16034ed1025ff51105d3cbe74f356.
 
@@ -89,7 +89,7 @@ O segundo microserviço é de cadastro de pedidos, onde cada pedido possui o id 
 Listar, Listar por usuário, exibir, criar, alterar e excluir.
 Cada microserviço por sua vez, faz a persistência dos dados em seus respectivos banco de dados, utilizando os padrões REST.
 
-## Technologies
+## Tecnologias
 
 - User Api: FastApi, SQLAlchemy, Redis e Pytest.
 
@@ -107,7 +107,7 @@ ElasticSearch: É um mecanismo de busca e análise de dados distribuído e open 
 
 Requests: É uma biblioteca HTTP elegante e simples para Python.
 
-## Steps
+## Comandos e Execução
 
 Com docker em execução, acesse a raiz de cada Api e execute: 
   
@@ -129,6 +129,6 @@ ElasticSearch: localhost:9200
 
 Variáveis de ambiente estão localizadas no arquivo ".env"
 
-## Comments
+## Observações
 
 * Escolha do Pyhton FastApi como framework: Ele possui grande performance, fácil aprendizado, código rápido, produção em tempo real, intuitivo e robusto.
